@@ -1,3 +1,5 @@
+package src.A01;
+
 import java.util.Scanner;
 
 public class Tarefa01_8 {
