@@ -1,4 +1,4 @@
-package src.A01;
+package src.LPO1.A01;
 
 import java.util.Scanner;
 
