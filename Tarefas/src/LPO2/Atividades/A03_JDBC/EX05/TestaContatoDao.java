@@ -1,4 +1,4 @@
-package src.LPO2.Atividades.A02;
+package src.LPO2.Atividades.A03_JDBC.EX05;
 
 import java.util.List;
 
@@ -28,7 +28,7 @@ public class TestaContatoDao {
             System.out.println("----------------------");
         }
 
-        // Alterar contato
+        // Alterar contato com ID 1
         Contato contatoAlterado = new Contato();
         contatoAlterado.setId(1);
         contatoAlterado.setNome("João Atualizado");
@@ -37,25 +37,10 @@ public class TestaContatoDao {
 
         dao.altera(contatoAlterado);
 
-        // Remover contato
+        // Remover contato com ID 1
         Contato contatoRemover = new Contato();
         contatoRemover.setId(1);
 
         dao.remove(contatoRemover);
     }
 }
-
-
-//Tabela no BD 
-
-/* CREATE DATABASE agenda;
-
-USE agenda;
-
-CREATE TABLE contatos (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100),
-    email VARCHAR(100),
-    telefone VARCHAR(20)
-); 
-*/

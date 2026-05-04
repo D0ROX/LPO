@@ -1,4 +1,4 @@
-package src.LPO2.Atividades.A02;
+package src.LPO2.Atividades.A03_JDBC.EX05;
 
 public class Contato {
     
@@ -7,52 +7,52 @@ public class Contato {
     private String email;
     private String telefone;
 
-    public Contato(){
+    public Contato() {
 
     }
 
-    public Contato (String nome, String email, String telefone){
+    public Contato(String nome, String email, String telefone) {
         this.nome = nome;
         this.email = email;
-        this.telefone =  telefone;
+        this.telefone = telefone;
     }
 
-    public Contato (int id, String nome, String email, String telefone) {
+    public Contato(int id, String nome, String email, String telefone) {
         this.id = id;
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;
     }
 
-    public int getId(){
+    public int getId() {
         return id;
     }
 
-    public void setId(int id){
+    public void setId(int id) {
         this.id = id;
-    }
+    }   
 
-    public String getNome(){
+    public String getNome() {
         return nome;
     }
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
+    }   
 
-    public String getEmail(){
+    public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email){
+    public void setEmail(String email) {
         this.email = email;
-    }
+    }   
 
-    public String getTelefone(){
+    public String getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(String telefone){
+    public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
 }
